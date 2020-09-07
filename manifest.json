@@ -1,0 +1,19 @@
+{
+  "name": "One Shot Downloader",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "네이버 블로그와 카페의 첨부파일들을 한 번에 다운",
+  "sidebar_action": {
+    "default_icon": "icon32.png",
+    "default_page": "sidebar.html"
+  },  
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "downloads",
+    "<all_urls>"
+  ]
+}
